@@ -12,8 +12,11 @@ javascript: (function () {
 
 You can convert it to more bookmarklet friendly code at http://chriszarate.github.io/bookmarkleter/
 
-When you are on the search page in elmah.io. Click the bookmarklet and then you can navigate the errors with up & down keys. You can delete an error with "delete". The error get slightly read when deleting and clear red when it's done.
+When you are on the search page in elmah.io. Click the bookmarklet and then you can navigate the errors with up & down keys. You can delete an error with "delete". The error get slightly red when deleting and clear red when it's done.
 
+NOTES:
+- There is no confirmation so take care
+- I tested with the regular delete on the keyboard. Not sure if the numpad delete will work.
 
 # Contributing
 
