@@ -34,7 +34,7 @@ var Bokio;
                 var errorId = link.id;
                 item.classList.add('Bokio_ElmahHelper_deleting');
                 var r = new XMLHttpRequest();
-                r.open("POST", "https://elmah.io/api/v2/messages?id=" + errorId + "&logid=" + logId , true);
+                r.open("DELETE", "https://elmah.io/api/v2/messages?id=" + errorId + "&logid=" + logId , true);
                 r.onreadystatechange = function () {
                     item.classList.add('Bokio_ElmahHelper_deleted');
                 };
